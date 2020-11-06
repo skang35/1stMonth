@@ -1,0 +1,15 @@
+package Algorithm;
+
+public class SangSok {
+	public static void main(String[] args) {
+		class Apple{
+			Apple(){
+				
+			}
+			
+		}
+		
+		
+	}
+
+}

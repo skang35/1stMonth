@@ -1,0 +1,179 @@
+package Algorithm;
+
+//class Apple {
+//	Apple() {
+//		
+//	}
+//	
+//}
+//	void func1() {
+//		System.out.println("부모 1");
+//	}
+//	void func3() {
+//		System.out.println("부모 3");
+//	}
+//	void func5() {
+//		func3();
+//		System.out.println("자식아 부모다");
+//	}
+//	void func6() {
+//		func5();
+//	}
+//
+//}
+//class Orange extends Apple{
+//	Orange(){
+//		
+//	}
+//	void f2() {
+//		
+//	}
+//	void func2() {
+//		System.out.println("자식 2");
+//	}
+//	void func3() {
+//		System.out.println("자식 3");
+//	}
+//	void func4() {
+//		super.func3();
+//		System.out.println("나는 자식 4");
+//	}
+//}
+
+//class Banana extends Apple{
+//	Banana() {
+//		System.out.println("Kids");
+//	}
+//
+//}
+//
+//class A{
+//	A(int n){
+//		System.out.println(n);
+//	}
+//}
+//
+//class B extends A{
+//	B(){
+//		super(18);	// super = 부모님, 그리고 생성자 첫번째 자리에 들어간다 
+//		System.out.println("이No무 자식 생성Ja");
+//	}
+//}
+//class Animal{
+//	void cry(){
+//		
+//		System.out.println("나는 안운다");
+//	}
+//}
+//class Dog extends Animal{
+//	void cry(){
+//		System.out.println("왈왈");
+//	}
+//}
+//class Cat extends Animal{
+//	void cry(){
+//		System.out.println("야옹");
+//	}
+//}
+//class Snake extends Animal{
+//	
+//}
+class Zoo{
+	Zoo(){
+		System.out.println(132);
+	}
+	Zoo(int a){
+		
+	}
+	Zoo(String s){
+		
+	}
+//	Zoo(Dog dog){
+//		
+//	}
+//	Zoo(Cat cat){
+//		
+//	}
+//	Zoo(Snake snake){
+//		
+//	}
+	Zoo(Animal animal){
+		
+	}
+	void cry() {
+		
+	}
+
+}
+class Animal{
+	void cry() {
+		
+	}
+}
+class Dog extends Animal{
+	Dog(){
+		System.out.println("떡");
+	}
+	void cry() {
+		System.out.println(1);
+	}
+}
+class Cat extends Animal{
+	Cat(){
+		System.out.println("꼬우");
+	}
+	void cry() {
+		System.out.println(2);
+	}
+
+}
+class Snake extends Animal{
+	Snake(){
+		System.out.println("쓰");
+	}
+	void cry() {
+		System.out.println(3);
+	}
+
+}
+public class SangSok {
+	public static void main(String[] args) {
+//		Dog d1 = new Dog();
+//		Zoo z1 = new Zoo(d1);
+		Zoo z2 = new Zoo(new Dog());
+		Zoo z3 = new Zoo(new Cat());
+		Zoo z4 = new Zoo(new Snake());
+		z2.cry();
+		
+		
+//		String s1 = "호랑이";
+//		String s2 = new String();
+//		String [] s3 = {"호랑이1", "호랑이2", "호랑이3"};
+//		String [] s4 = {new String("코끼리1"), new String("코끼리2")};
+//		Animal [] a7 = {new Dog(), new Cat(), new Snake()};
+//		a7[0].cry();
+//		
+//		for (int i = 0; i < 3; i++) {
+//			a7[i].cry();
+//		}
+//		Apple t1 = new Apple();
+//		Orange t2 = new Orange();
+//		Orange t3 = new Apple();
+//		Apple t4 = new Orange();
+		
+//		Orange o1 = new Orange();
+//		o1.func1();
+//		o1.func3();
+//		o1.func4();
+//		o1.func5();
+//		o1.func6();
+//		
+//		Apple apple = new Apple();
+//		Banana b1 = new Banana();
+//		B b = new B();
+
+	}
+}	
+	
+//	결과는 부모 생성자 호출 후 자식 생성자 
+//	되기는 개뿔...

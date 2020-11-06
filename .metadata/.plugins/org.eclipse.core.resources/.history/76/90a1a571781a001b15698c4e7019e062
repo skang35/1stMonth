@@ -1,0 +1,59 @@
+package Algorithm;
+
+class Apple {
+	Apple() {
+		
+	}
+	void func1() {
+		System.out.println("부모 1");
+	}
+	void func3() {
+		System.out.println("부모 3");
+	}
+
+}
+class Orange extends Apple{
+	Orange(){
+		
+	}
+	void func2() {
+		System.out.println("자식 2");
+	}
+	void func4() {
+		System.out.println("자식 3");
+	}
+}
+
+//class Banana extends Apple{
+//	Banana() {
+//		System.out.println("Kids");
+//	}
+//
+//}
+//
+//class A{
+//	A(int n){
+//		System.out.println(n);
+//	}
+//}
+//
+//class B extends A{
+//	B(){
+//		super(18);	// super = 부모님, 그리고 생성자 첫번째 자리에 들어간다 
+//		System.out.println("이No무 자식 생성Ja");
+//	}
+//}
+
+
+public class SangSok {
+	public static void main(String[] args) {
+		Orange o1 = new Orange();
+		
+//		Apple apple = new Apple();
+//		Banana b1 = new Banana();
+//		B b = new B();
+	}
+}
+
+//	결과는 부모 생성자 호출 후 자식 생성자 
+//	되기는 개뿔...

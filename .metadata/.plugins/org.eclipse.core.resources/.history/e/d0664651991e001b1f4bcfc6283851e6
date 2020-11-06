@@ -1,0 +1,5 @@
+package kr.co.swk.multichat.server;
+
+public class ServerGui {
+
+}

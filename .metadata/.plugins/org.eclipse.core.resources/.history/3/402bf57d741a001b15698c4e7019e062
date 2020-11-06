@@ -1,0 +1,25 @@
+package Algorithm;
+
+class Apple {
+	Apple() {
+		System.out.println("Parents");
+	}
+
+}
+
+class Banana extends Apple{
+	Banana() {
+		System.out.println("Kids");
+	}
+
+}
+
+public class SangSok {
+	public static void main(String[] args) {
+//		Apple apple = new Apple();
+		Banana b1 = new Banana();
+	}
+}
+
+//	결과는 부모 생성자 호출 후 자식 생성자 
+//	되기는 개뿔...

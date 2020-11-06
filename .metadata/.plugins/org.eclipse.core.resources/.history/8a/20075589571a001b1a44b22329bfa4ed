@@ -1,0 +1,38 @@
+package Algorithm;
+
+class Apple{
+	
+	private 
+	String name = "Mr.Hong";
+	int money = 1000;
+	
+	String getName() {
+		return name;
+	}
+	int getMoney() {
+		return money;
+	}
+	void setName(String name) {
+		this.name = name;
+	}
+	void setMoney(int money) {
+		this.money = money;
+	}
+		
+}
+
+public class GetterSetter {
+
+	public static void main(String[] args) {
+		Apple apple = new Apple();
+//		System.out.println(apple.name);
+//		System.out.println(apple.money);
+		System.out.println(apple.getName());
+		System.out.println(apple.getMoney());
+		apple.setMoney(2000);
+		apple.setName("Mr.Lee");
+		
+	
+	}
+
+}
